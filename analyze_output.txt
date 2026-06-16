@@ -1,0 +1,239 @@
+Resolving dependencies...
+Downloading packages...
+  characters 1.4.0 (1.4.1 available)
+  flutter_lints 5.0.0 (6.0.0 available)
+  intl 0.19.0 (0.20.2 available)
+  leak_tracker 11.0.1 (11.0.2 available)
+  lints 5.1.1 (6.0.0 available)
+  material_color_utilities 0.11.1 (0.13.0 available)
+  meta 1.16.0 (1.17.0 available)
+  test_api 0.7.6 (0.7.7 available)
+  vm_service 15.0.0 (15.0.2 available)
+Got dependencies!
+9 packages have newer versions incompatible with dependency constraints.
+Try `flutter pub outdated` for more information.
+Analyzing spbu_schedule...                                      
+
+   info • 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss • examples/lib/main.dart:74:61 • deprecated_member_use
+   info • Don't invoke 'print' in production code • examples/lib/models/schedule_models.dart:84:9 • avoid_print
+   info • Don't invoke 'print' in production code • examples/lib/models/schedule_models.dart:88:7 • avoid_print
+   info • Don't invoke 'print' in production code • examples/lib/providers/schedule_provider.dart:34:7 • avoid_print
+warning • The receiver can't be null, so the null-aware operator '?.' is unnecessary • examples/lib/providers/schedule_provider.dart:98:54 • invalid_null_aware_operator
+warning • The receiver can't be null, so the null-aware operator '?.' is unnecessary • examples/lib/providers/schedule_provider.dart:117:58 • invalid_null_aware_operator
+   info • 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss • examples/lib/screens/next_lesson_screen.dart:116:46 • deprecated_member_use
+   info • 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss • examples/lib/screens/next_lesson_screen.dart:205:60 • deprecated_member_use
+   info • 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss • examples/lib/screens/next_lesson_screen.dart:230:66 • deprecated_member_use
+warning • The declaration '_buildLessonCard' isn't referenced • examples/lib/screens/next_lesson_screen.dart:252:10 • unused_element
+warning • The declaration '_getWeekdayName' isn't referenced • examples/lib/screens/next_lesson_screen.dart:256:10 • unused_element
+   info • The import of 'package:flutter/material.dart' is unnecessary because all of the used elements are also provided by the import of 'package:flutter/cupertino.dart' • examples/lib/screens/today_schedule_screen.dart:1:8 • unnecessary_import
+warning • The declaration '_buildLessonCard' isn't referenced • examples/lib/screens/today_schedule_screen.dart:65:10 • unused_element
+warning • The declaration '_getWeekdayName' isn't referenced • examples/lib/screens/today_schedule_screen.dart:69:10 • unused_element
+   info • The import of 'package:flutter/material.dart' is unnecessary because all of the used elements are also provided by the import of 'package:flutter/cupertino.dart' • examples/lib/screens/week_schedule_screen.dart:1:8 • unnecessary_import
+warning • The declaration '_buildLessonCard' isn't referenced • examples/lib/screens/week_schedule_screen.dart:129:10 • unused_element
+warning • The declaration '_getWeekdayName' isn't referenced • examples/lib/screens/week_schedule_screen.dart:133:10 • unused_element
+warning • The declaration '_getShortWeekdayName' isn't referenced • examples/lib/screens/week_schedule_screen.dart:137:10 • unused_element
+   info • Don't invoke 'print' in production code • examples/lib/services/schedule_service.dart:33:9 • avoid_print
+   info • Don't invoke 'print' in production code • examples/lib/services/schedule_service.dart:37:7 • avoid_print
+   info • Don't invoke 'print' in production code • examples/lib/services/schedule_service.dart:53:9 • avoid_print
+   info • Don't invoke 'print' in production code • examples/lib/services/schedule_service.dart:61:9 • avoid_print
+   info • Don't invoke 'print' in production code • examples/lib/services/schedule_service.dart:70:15 • avoid_print
+   info • Don't invoke 'print' in production code • examples/lib/services/schedule_service.dart:76:16 • avoid_print
+   info • Don't invoke 'print' in production code • examples/lib/services/schedule_service.dart:86:15 • avoid_print
+   info • Don't invoke 'print' in production code • examples/lib/services/schedule_service.dart:91:17 • avoid_print
+   info • Don't invoke 'print' in production code • examples/lib/services/schedule_service.dart:97:19 • avoid_print
+   info • Don't invoke 'print' in production code • examples/lib/services/schedule_service.dart:102:20 • avoid_print
+   info • Don't invoke 'print' in production code • examples/lib/services/schedule_service.dart:115:11 • avoid_print
+   info • Use 'rethrow' to rethrow a caught exception • examples/lib/services/schedule_service.dart:116:11 • use_rethrow_when_possible
+warning • Dead code • examples/lib/services/schedule_service.dart:120:9 • dead_code
+   info • Don't invoke 'print' in production code • examples/lib/services/schedule_service.dart:121:11 • avoid_print
+   info • Don't invoke 'print' in production code • examples/lib/services/schedule_service.dart:138:9 • avoid_print
+   info • Don't invoke 'print' in production code • examples/lib/services/schedule_service.dart:150:7 • avoid_print
+   info • Don't invoke 'print' in production code • examples/lib/services/schedule_service.dart:153:9 • avoid_print
+   info • Don't invoke 'print' in production code • examples/lib/services/schedule_service.dart:157:7 • avoid_print
+   info • Don't invoke 'print' in production code • examples/lib/services/schedule_service.dart:159:7 • avoid_print
+   info • Don't invoke 'print' in production code • examples/lib/services/schedule_service.dart:164:7 • avoid_print
+   info • Don't invoke 'print' in production code • examples/lib/services/schedule_service.dart:167:9 • avoid_print
+   info • Don't invoke 'print' in production code • examples/lib/services/schedule_service.dart:172:7 • avoid_print
+   info • Don't invoke 'print' in production code • examples/lib/services/schedule_service.dart:174:7 • avoid_print
+   info • Don't invoke 'print' in production code • examples/lib/services/schedule_service.dart:177:5 • avoid_print
+   info • Don't invoke 'print' in production code • examples/lib/services/schedule_service.dart:187:7 • avoid_print
+   info • Don't invoke 'print' in production code • examples/lib/services/schedule_service.dart:189:7 • avoid_print
+warning • The declaration '_hasCachedData' isn't referenced • examples/lib/services/schedule_service.dart:194:16 • unused_element
+   info • Don't invoke 'print' in production code • examples/lib/services/schedule_service.dart:199:7 • avoid_print
+warning • The declaration '_getFromCache' isn't referenced • examples/lib/services/schedule_service.dart:205:19 • unused_element
+   info • Don't invoke 'print' in production code • examples/lib/services/schedule_service.dart:216:7 • avoid_print
+   info • Don't invoke 'print' in production code • examples/lib/services/schedule_service.dart:233:7 • avoid_print
+warning • The declaration '_cacheSchedule' isn't referenced • examples/lib/services/schedule_service.dart:239:16 • unused_element
+   info • Don't invoke 'print' in production code • examples/lib/services/schedule_service.dart:248:7 • avoid_print
+   info • Don't invoke 'print' in production code • examples/lib/services/schedule_service.dart:250:7 • avoid_print
+   info • The import of 'package:flutter/cupertino.dart' is unnecessary because all of the used elements are also provided by the import of 'package:flutter/material.dart' • examples/lib/theme/app_theme.dart:2:8 • unnecessary_import
+warning • The value of the field '_onSurfaceDark' isn't used • examples/lib/theme/app_theme.dart:25:22 • unused_field
+warning • The value of the field '_greenLight' isn't used • examples/lib/theme/app_theme.dart:28:22 • unused_field
+warning • The value of the field '_greenDark' isn't used • examples/lib/theme/app_theme.dart:29:22 • unused_field
+warning • The value of the field '_orangeLight' isn't used • examples/lib/theme/app_theme.dart:31:22 • unused_field
+warning • The value of the field '_orangeDark' isn't used • examples/lib/theme/app_theme.dart:32:22 • unused_field
+warning • The value of the field '_yellowLight' isn't used • examples/lib/theme/app_theme.dart:34:22 • unused_field
+warning • The value of the field '_yellowDark' isn't used • examples/lib/theme/app_theme.dart:35:22 • unused_field
+warning • The value of the field '_purpleLight' isn't used • examples/lib/theme/app_theme.dart:37:22 • unused_field
+warning • The value of the field '_purpleDark' isn't used • examples/lib/theme/app_theme.dart:38:22 • unused_field
+warning • The value of the field '_tealLight' isn't used • examples/lib/theme/app_theme.dart:40:22 • unused_field
+warning • The value of the field '_tealDark' isn't used • examples/lib/theme/app_theme.dart:41:22 • unused_field
+   info • 'background' is deprecated and shouldn't be used. Use surface instead. This feature was deprecated after v3.18.0-0.1.pre • examples/lib/theme/app_theme.dart:57:7 • deprecated_member_use
+   info • 'onBackground' is deprecated and shouldn't be used. Use onSurface instead. This feature was deprecated after v3.18.0-0.1.pre • examples/lib/theme/app_theme.dart:60:7 • deprecated_member_use
+   info • Unnecessary 'const' keyword • examples/lib/theme/app_theme.dart:74:14 • unnecessary_const
+   info • 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss • examples/lib/theme/app_theme.dart:106:36 • deprecated_member_use
+   info • 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss • examples/lib/theme/app_theme.dart:125:65 • deprecated_member_use
+   info • 'background' is deprecated and shouldn't be used. Use surface instead. This feature was deprecated after v3.18.0-0.1.pre • examples/lib/theme/app_theme.dart:139:7 • deprecated_member_use
+   info • 'onBackground' is deprecated and shouldn't be used. Use onSurface instead. This feature was deprecated after v3.18.0-0.1.pre • examples/lib/theme/app_theme.dart:142:7 • deprecated_member_use
+   info • Unnecessary 'const' keyword • examples/lib/theme/app_theme.dart:156:14 • unnecessary_const
+   info • 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss • examples/lib/theme/app_theme.dart:188:35 • deprecated_member_use
+   info • 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss • examples/lib/theme/app_theme.dart:207:67 • deprecated_member_use
+warning • Unused import: 'package:intl/intl.dart' • examples/lib/utils/date_utils.dart:1:8 • unused_import
+   info • 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss • examples/lib/widgets/ios_style_widgets.dart:34:32 • deprecated_member_use
+   info • 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss • examples/lib/widgets/ios_style_widgets.dart:35:32 • deprecated_member_use
+warning • The value of the field '_heightFactor' isn't used • examples/lib/widgets/ios_style_widgets.dart:63:26 • unused_field
+   info • 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss • examples/lib/widgets/ios_style_widgets.dart:101:35 • deprecated_member_use
+   info • 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss • examples/lib/widgets/ios_style_widgets.dart:136:47 • deprecated_member_use
+   info • 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss • examples/lib/widgets/ios_style_widgets.dart:186:44 • deprecated_member_use
+   info • Use a 'SizedBox' to add whitespace to a layout • examples/lib/widgets/ios_style_widgets.dart:228:12 • sized_box_for_whitespace
+   info • 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss • examples/lib/widgets/ios_style_widgets.dart:252:49 • deprecated_member_use
+   info • 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss • examples/lib/widgets/ios_style_widgets.dart:256:56 • deprecated_member_use
+   info • 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss • examples/lib/widgets/ios_style_widgets.dart:419:48 • deprecated_member_use
+   info • 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss • examples/lib/widgets/ios_style_widgets.dart:425:52 • deprecated_member_use
+   info • 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss • lib/main.dart:74:61 • deprecated_member_use
+   info • Don't invoke 'print' in production code • lib/models/schedule_models.dart:117:9 • avoid_print
+   info • Don't invoke 'print' in production code • lib/models/schedule_models.dart:121:7 • avoid_print
+  error • The method 'getCachedSchedule' isn't defined for the type 'ScheduleService' • lib/providers/schedule_provider.dart:36:49 • undefined_method
+   info • Don't invoke 'print' in production code • lib/providers/schedule_provider.dart:45:7 • avoid_print
+  error • The method 'saveToCache' isn't defined for the type 'ScheduleService' • lib/providers/schedule_provider.dart:76:36 • undefined_method
+  error • The method 'saveToCache' isn't defined for the type 'ScheduleService' • lib/providers/schedule_provider.dart:80:36 • undefined_method
+   info • Don't invoke 'print' in production code • lib/providers/schedule_provider.dart:85:7 • avoid_print
+   info • Don't invoke 'print' in production code • lib/providers/schedule_provider.dart:106:7 • avoid_print
+   info • Don't invoke 'print' in production code • lib/providers/schedule_provider.dart:144:7 • avoid_print
+  error • Undefined name '_customWeekData' • lib/providers/schedule_provider.dart:253:9 • undefined_identifier
+  error • Undefined name '_customWeekStart' • lib/providers/schedule_provider.dart:253:36 • undefined_identifier
+  error • The function 'fetchScheduleForWeek' isn't defined • lib/providers/schedule_provider.dart:254:7 • undefined_function
+  error • Undefined name '_customWeekData' • lib/providers/schedule_provider.dart:265:27 • undefined_identifier
+  error • Undefined name '_scheduleData' • lib/providers/schedule_provider.dart:278:9 • undefined_identifier
+  error • The function 'getDaySchedule' isn't defined • lib/providers/schedule_provider.dart:288:27 • undefined_function
+  error • The function 'getTodaySchedule' isn't defined • lib/providers/schedule_provider.dart:297:25 • undefined_function
+  error • The function 'getTodaySchedule' isn't defined • lib/providers/schedule_provider.dart:306:25 • undefined_function
+  error • Expected a method, getter, setter or operator declaration • lib/providers/schedule_provider.dart:319:1 • expected_executable
+  error • The method 'getCurrentLessons' isn't defined for the type 'ScheduleProvider' • lib/screens/next_lesson_screen.dart:83:10 • undefined_method
+  error • The method 'getNextLessons' isn't defined for the type 'ScheduleProvider' • lib/screens/next_lesson_screen.dart:122:12 • undefined_method
+  error • The method 'getNextLessons' isn't defined for the type 'ScheduleProvider' • lib/screens/next_lesson_screen.dart:179:10 • undefined_method
+   info • 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss • lib/screens/next_lesson_screen.dart:222:46 • deprecated_member_use
+   info • 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss • lib/screens/next_lesson_screen.dart:437:60 • deprecated_member_use
+   info • 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss • lib/screens/next_lesson_screen.dart:462:66 • deprecated_member_use
+warning • The declaration '_buildLessonCard' isn't referenced • lib/screens/next_lesson_screen.dart:495:10 • unused_element
+warning • The declaration '_getWeekdayName' isn't referenced • lib/screens/next_lesson_screen.dart:499:10 • unused_element
+   info • The import of 'package:flutter/material.dart' is unnecessary because all of the used elements are also provided by the import of 'package:flutter/cupertino.dart' • lib/screens/today_schedule_screen.dart:2:8 • unnecessary_import
+warning • The declaration '_getWeekdayName' isn't referenced • lib/screens/today_schedule_screen.dart:114:10 • unused_element
+  error • The method 'getWeekSchedule' isn't defined for the type 'ScheduleProvider' • lib/screens/week_schedule_screen.dart:145:32 • undefined_method
+  error • The method 'getCustomWeekSchedule' isn't defined for the type 'ScheduleProvider' • lib/screens/week_schedule_screen.dart:146:32 • undefined_method
+   info • The 'child' argument should be last in widget constructor invocations • lib/screens/week_schedule_screen.dart:185:21 • sort_child_properties_last
+warning • The declaration '_buildLessonCard' isn't referenced • lib/screens/week_schedule_screen.dart:317:10 • unused_element
+warning • The declaration '_getWeekdayName' isn't referenced • lib/screens/week_schedule_screen.dart:321:10 • unused_element
+warning • The declaration '_getShortWeekdayName' isn't referenced • lib/screens/week_schedule_screen.dart:325:10 • unused_element
+warning • The declaration '<unnamed>' isn't referenced • lib/services/schedule_service.dart:8:7 • unused_element
+   info • Don't invoke 'print' in production code • lib/services/schedule_service.dart:35:9 • avoid_print
+   info • Don't invoke 'print' in production code • lib/services/schedule_service.dart:39:7 • avoid_print
+   info • Don't invoke 'print' in production code • lib/services/schedule_service.dart:65:9 • avoid_print
+   info • Don't invoke 'print' in production code • lib/services/schedule_service.dart:98:7 • avoid_print
+  error • The method 'DateFormat' isn't defined for the type 'ScheduleService' • lib/services/schedule_service.dart:106:25 • undefined_method
+   info • Don't invoke 'print' in production code • lib/services/schedule_service.dart:112:7 • avoid_print
+   info • Don't invoke 'print' in production code • lib/services/schedule_service.dart:119:11 • avoid_print
+   info • Don't invoke 'print' in production code • lib/services/schedule_service.dart:124:11 • avoid_print
+   info • Don't invoke 'print' in production code • lib/services/schedule_service.dart:133:11 • avoid_print
+   info • Don't invoke 'print' in production code • lib/services/schedule_service.dart:138:17 • avoid_print
+   info • Don't invoke 'print' in production code • lib/services/schedule_service.dart:144:19 • avoid_print
+   info • Don't invoke 'print' in production code • lib/services/schedule_service.dart:149:20 • avoid_print
+   info • Don't invoke 'print' in production code • lib/services/schedule_service.dart:167:11 • avoid_print
+warning • Dead code • lib/services/schedule_service.dart:172:9 • dead_code
+  error • Undefined name 'cachedData' • lib/services/schedule_service.dart:172:13 • undefined_identifier
+   info • Don't invoke 'print' in production code • lib/services/schedule_service.dart:173:11 • avoid_print
+  error • Undefined name 'cachedData' • lib/services/schedule_service.dart:174:18 • undefined_identifier
+  error • Expected a class member • lib/services/schedule_service.dart:179:9 • expected_class_member
+  error • Expected a class member • lib/services/schedule_service.dart:179:14 • expected_class_member
+  error • Expected an identifier • lib/services/schedule_service.dart:179:17 • missing_identifier
+  error • Expected to find ')' • lib/services/schedule_service.dart:179:29 • expected_token
+  error • Expected a class member • lib/services/schedule_service.dart:182:9 • expected_class_member
+  error • Expected an identifier • lib/services/schedule_service.dart:182:14 • missing_identifier
+  error • Methods must have an explicit list of parameters • lib/services/schedule_service.dart:182:14 • missing_method_parameters
+  error • 'catch' can't be used as an identifier because it's a keyword • lib/services/schedule_service.dart:186:7 • expected_identifier_but_got_keyword
+  error • The await expression can only be used in an async function • lib/services/schedule_service.dart:188:26 • await_in_wrong_context
+  error • The function '_getCachedSchedule' isn't defined • lib/services/schedule_service.dart:188:32 • undefined_function
+   info • Don't invoke 'print' in production code • lib/services/schedule_service.dart:190:9 • avoid_print
+  error • Expected a method, getter, setter or operator declaration • lib/services/schedule_service.dart:195:3 • expected_executable
+   info • Don't invoke 'print' in production code • lib/services/schedule_service.dart:225:7 • avoid_print
+   info • Don't invoke 'print' in production code • lib/services/schedule_service.dart:227:7 • avoid_print
+   info • Don't invoke 'print' in production code • lib/services/schedule_service.dart:279:7 • avoid_print
+   info • Don't invoke 'print' in production code • lib/services/schedule_service.dart:281:7 • avoid_print
+  error • Undefined name '_cacheKey' • lib/services/schedule_service.dart:345:29 • undefined_identifier
+  error • Undefined name '_cacheTimestampKey' • lib/services/schedule_service.dart:346:26 • undefined_identifier
+   info • Don't invoke 'print' in production code • lib/services/schedule_service.dart:347:7 • avoid_print
+   info • Don't invoke 'print' in production code • lib/services/schedule_service.dart:349:7 • avoid_print
+warning • The declaration '_hasCachedData' isn't referenced • lib/services/schedule_service.dart:354:16 • unused_element
+  error • Undefined name '_cacheKey' • lib/services/schedule_service.dart:357:32 • undefined_identifier
+  error • Undefined name '_cacheKey' • lib/services/schedule_service.dart:357:62 • undefined_identifier
+   info • Don't invoke 'print' in production code • lib/services/schedule_service.dart:359:7 • avoid_print
+warning • The declaration '_getFromCache' isn't referenced • lib/services/schedule_service.dart:365:19 • unused_element
+  error • Undefined name '_cacheKey' • lib/services/schedule_service.dart:368:42 • undefined_identifier
+   info • Don't invoke 'print' in production code • lib/services/schedule_service.dart:376:7 • avoid_print
+  error • Undefined name '_cacheKey' • lib/services/schedule_service.dart:385:42 • undefined_identifier
+   info • Don't invoke 'print' in production code • lib/services/schedule_service.dart:393:7 • avoid_print
+  error • Undefined name '_cacheKey' • lib/services/schedule_service.dart:403:29 • undefined_identifier
+  error • Undefined name '_cacheTimestampKey' • lib/services/schedule_service.dart:404:26 • undefined_identifier
+   info • Don't invoke 'print' in production code • lib/services/schedule_service.dart:405:7 • avoid_print
+   info • Don't invoke 'print' in production code • lib/services/schedule_service.dart:407:7 • avoid_print
+  error • Undefined name '_weeksKey' • lib/services/schedule_service.dart:419:29 • undefined_identifier
+   info • Don't invoke 'print' in production code • lib/services/schedule_service.dart:420:7 • avoid_print
+   info • Don't invoke 'print' in production code • lib/services/schedule_service.dart:422:7 • avoid_print
+  error • Undefined name '_weeksKey' • lib/services/schedule_service.dart:430:42 • undefined_identifier
+   info • Don't invoke 'print' in production code • lib/services/schedule_service.dart:442:7 • avoid_print
+  error • Undefined name '_eventsKey' • lib/services/schedule_service.dart:459:29 • undefined_identifier
+   info • Don't invoke 'print' in production code • lib/services/schedule_service.dart:460:7 • avoid_print
+   info • Don't invoke 'print' in production code • lib/services/schedule_service.dart:462:7 • avoid_print
+  error • Undefined name '_eventsKey' • lib/services/schedule_service.dart:470:42 • undefined_identifier
+   info • Don't invoke 'print' in production code • lib/services/schedule_service.dart:487:7 • avoid_print
+  error • Expected a method, getter, setter or operator declaration • lib/services/schedule_service.dart:491:1 • expected_executable
+   info • The import of 'package:flutter/cupertino.dart' is unnecessary because all of the used elements are also provided by the import of 'package:flutter/material.dart' • lib/theme/app_theme.dart:2:8 • unnecessary_import
+warning • The value of the field '_onBackgroundLight' isn't used • lib/theme/app_theme.dart:21:22 • unused_field
+warning • The value of the field '_onSurfaceDark' isn't used • lib/theme/app_theme.dart:25:22 • unused_field
+warning • The value of the field '_greenLight' isn't used • lib/theme/app_theme.dart:28:22 • unused_field
+warning • The value of the field '_greenDark' isn't used • lib/theme/app_theme.dart:29:22 • unused_field
+warning • The value of the field '_orangeLight' isn't used • lib/theme/app_theme.dart:31:22 • unused_field
+warning • The value of the field '_orangeDark' isn't used • lib/theme/app_theme.dart:32:22 • unused_field
+warning • The value of the field '_yellowLight' isn't used • lib/theme/app_theme.dart:34:22 • unused_field
+warning • The value of the field '_yellowDark' isn't used • lib/theme/app_theme.dart:35:22 • unused_field
+warning • The value of the field '_purpleLight' isn't used • lib/theme/app_theme.dart:37:22 • unused_field
+warning • The value of the field '_purpleDark' isn't used • lib/theme/app_theme.dart:38:22 • unused_field
+warning • The value of the field '_tealLight' isn't used • lib/theme/app_theme.dart:40:22 • unused_field
+warning • The value of the field '_tealDark' isn't used • lib/theme/app_theme.dart:41:22 • unused_field
+   info • 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss • lib/theme/app_theme.dart:104:36 • deprecated_member_use
+   info • 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss • lib/theme/app_theme.dart:123:65 • deprecated_member_use
+   info • 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss • lib/theme/app_theme.dart:184:35 • deprecated_member_use
+   info • 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss • lib/theme/app_theme.dart:203:67 • deprecated_member_use
+   info • 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss • lib/widgets/ios_style_widgets.dart:34:32 • deprecated_member_use
+   info • 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss • lib/widgets/ios_style_widgets.dart:35:32 • deprecated_member_use
+warning • The value of the field '_heightFactor' isn't used • lib/widgets/ios_style_widgets.dart:70:26 • unused_field
+warning • The declaration '_getCardGradient' isn't referenced • lib/widgets/ios_style_widgets.dart:168:18 • unused_element
+   info • 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss • lib/widgets/ios_style_widgets.dart:177:21 • deprecated_member_use
+   info • 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss • lib/widgets/ios_style_widgets.dart:178:21 • deprecated_member_use
+   info • 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss • lib/widgets/ios_style_widgets.dart:192:35 • deprecated_member_use
+   info • 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss • lib/widgets/ios_style_widgets.dart:229:47 • deprecated_member_use
+   info • 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss • lib/widgets/ios_style_widgets.dart:279:44 • deprecated_member_use
+   info • 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss • lib/widgets/ios_style_widgets.dart:347:49 • deprecated_member_use
+   info • 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss • lib/widgets/ios_style_widgets.dart:351:56 • deprecated_member_use
+   info • 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss • lib/widgets/ios_style_widgets.dart:514:48 • deprecated_member_use
+   info • 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss • lib/widgets/ios_style_widgets.dart:520:52 • deprecated_member_use
+warning • The value of the field '_heightFactor' isn't used • lib/widgets/ios_style_widgets.dart:553:26 • unused_field
+   info • 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss • lib/widgets/ios_style_widgets.dart:642:64 • deprecated_member_use
+   info • 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss • lib/widgets/ios_style_widgets.dart:681:31 • deprecated_member_use
+   info • 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss • lib/widgets/ios_style_widgets.dart:732:60 • deprecated_member_use
+   info • 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss • lib/widgets/ios_style_widgets.dart:743:54 • deprecated_member_use
+   info • Unnecessary use of 'toList' in a spread • lib/widgets/ios_style_widgets.dart:758:26 • unnecessary_to_list_in_spreads
+warning • The declaration '_getLessonsText' isn't referenced • lib/widgets/ios_style_widgets.dart:770:10 • unused_element
+   info • 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss • lib/widgets/ios_style_widgets.dart:795:44 • deprecated_member_use
+
+221 issues found. (ran in 0.9s)
