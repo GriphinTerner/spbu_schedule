@@ -1,0 +1,1 @@
+ /Users/griphinterner/Desktop/mrsdf/spbu_schedule/.dart_tool/flutter_build/14d4e1d804af3437a2c3e9a78617e486/native_assets.json: 
