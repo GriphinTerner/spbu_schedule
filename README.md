@@ -36,3 +36,75 @@ lib/
   providers/
   models/
   widgets/
+```
+## Requirements
+
+Before running the project, make sure that Flutter SDK is installed.
+
+Check Flutter installation:
+
+```bash
+
+flutter doctor
+
+```
+
+Check connected devices:
+
+```bash
+
+flutter devices
+
+```
+
+## How to run
+
+Clone the repository:
+
+```bash
+
+git clone https://github.com/GriphinTerner/spbu_schedule.git
+
+cd spbu_schedule
+
+```
+
+Install dependencies:
+
+```bash
+
+flutter pub get
+
+```
+
+Run the application:
+
+```bash
+
+flutter run
+
+```
+
+Run the application on a specific device:
+
+```bash
+
+flutter run -d device_id
+
+```
+
+Build Android APK:
+
+```bash
+
+flutter build apk
+
+```
+
+Build iOS application:
+
+```bash
+
+flutter build ios
+
+```
