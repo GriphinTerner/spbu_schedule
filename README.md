@@ -108,3 +108,7 @@ Build iOS application:
 flutter build ios
 
 ```
+
+## License
+
+This project is intended for educational and portfolio purposes.
